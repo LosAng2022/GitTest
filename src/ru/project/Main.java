@@ -8,12 +8,8 @@ public class Main {
 
     Car car = new Car("Грузовик");
 
-    int a = 0;
-   while (a < 5) {
 
-        System.out.println(car.type);
-        a++;
 
 
     }
-}}
+}
