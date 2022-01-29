@@ -2,7 +2,7 @@ package ru.project.avto;
 
 public class Truck extends Car {
 
-    public Truck(String type, String model, String color) {
+    public Truck(String type) {
         super(type);
     }
 }
