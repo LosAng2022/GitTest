@@ -1,12 +1,11 @@
 package ru.project;
 
-import ru.project.avto.Car;
-
 public class Main {
 
     public static void main(String[] args) {
 
-    Car car = new Car("Грузовик");
+    Car car = new Car("грузовик", "Скания", "синяя");
+    System.out.println("У нас есть " + car.getType() + " модели " + car.getModel() + " цвета " + car.getColor());
 
 
 
