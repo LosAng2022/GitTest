@@ -23,6 +23,7 @@ public class Main {
     System.out.println(collectionOfCars + " - все элементы коллекции");
         System.out.println(collectionOfCars.stream().count() + " - посчитал количество элементов в коллеции");
         System.out.println(collectionOfCars.stream().findFirst() + " - нашел первый объект в коллекции");
+        System.out.println((long)collectionOfCars.size() + " еще разок посчитал количество элементов в коллекции");
 
     }
 }
