@@ -25,5 +25,48 @@ public class Main {
         System.out.println(collectionOfCars.stream().findFirst() + " - нашел первый объект в коллекции");
         System.out.println((long)collectionOfCars.size() + " еще разок посчитал количество элементов в коллекции");
 
+        System.out.println("Парковка :");
+
+        int n = 0;
+
+        while (n < 1) {
+
+            int m = 0;
+
+            while (m < 20) {
+                System.out.print(car.getType());
+                m++;
+            }
+
+            System.out.println();
+            n++;
+
+        }
+        {
+            int x = 0;
+
+            while (x < 8) {
+
+                int y = 0;
+
+                while (y < 1) {
+
+                    System.out.print(car.getType());
+                    System.out.print("***********************************************" + car2.getType() + "******************************************" + car.getType() + "****************************************");
+                    System.out.print(car.getType());
+                    y++;
+                }
+
+                System.out.println();
+                x++;
+
+            }
+            int a = 0;
+
+            while (a < 20) {
+                System.out.print(car.getType());
+                a++;
+            }
+        }
     }
 }
